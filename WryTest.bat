@@ -36,6 +36,7 @@ IF /I "%confirm%"=="n" goto ask
 :proceed
 cls
 set /p paws=Press any key to continue or CTRL+C to cancel...
+echo It begins...
 
 :looper
 @echo on
